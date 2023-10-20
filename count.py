@@ -19,4 +19,6 @@ information = open("counts.txt", "r")
 vowels = information.read()
 information.close()
 
-
+# total vowels within the sample.ini file is: 
+# displayed in terminal
+print (f"The total amount of vowels is: {counter}")
